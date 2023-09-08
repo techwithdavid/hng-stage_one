@@ -16,7 +16,7 @@ The returned response includes the following:
 - A Status Code of Success (200)
 
 JSON
-
+```
  {
    "slack_name": "example_name",
    "current_day": "Monday",
@@ -26,3 +26,4 @@ JSON
    "github_repo_url": "https://github.com/username/repo",
    "status_code": 200
 }
+```
