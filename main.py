@@ -15,8 +15,8 @@ def details():
         'current_day': current_day,
         'utc_time': current_time,
         'track': track,
-        'github_file_url': "https://github.com/techwithdavid/h    ng-stage_one/blob/master/main.py",
-        'github_repo_url': "https://github.com/techwithdavid/h    ng-stage_one",
+        'github_file_url': "https://github.com/techwithdavid/hng-stage_one/blob/master/main.py",
+        'github_repo_url': "https://github.com/techwithdavid/hng-stage_one",
         'status_code': 200:
         }), 200
 
