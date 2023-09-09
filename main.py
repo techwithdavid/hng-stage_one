@@ -9,8 +9,8 @@ def home():
 
 @app.route('/api', methods=['GET'])
 def details():
-    slack_name = requests.args.get('slack_name')
-    track = requests.args.get('track')
+    slack_name = request.args.get('slack_name')
+    track = request.args.get('track')
     current_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     current_day = datetime.datetime.now().strftime("%A")
 
@@ -22,7 +22,7 @@ def details():
         'github_file_url': "https://github.com/techwithdavid/hng-stage_one/blob/master/main.py",
         'github_repo_url': "https://github.com/techwithdavid/hng-stage_one",
         'status_code': 200
-        })
+        }), 200
 
 if __name__=='__main__':
     app.run(debug=True)
