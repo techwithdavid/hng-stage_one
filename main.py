@@ -3,6 +3,10 @@ import datetime
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def home():
+    return 'Hello, world!'
+
 @app.route('/api', methods=['GET'])
 def details():
     slack_name = requests.args.get('slack_name')
