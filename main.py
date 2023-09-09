@@ -18,7 +18,7 @@ def details():
         'github_file_url': "https://github.com/techwithdavid/hng-stage_one/blob/master/main.py",
         'github_repo_url': "https://github.com/techwithdavid/hng-stage_one",
         'status_code': 200
-        }), 200
+        })
 
 if __name__=='__main__':
     app.run(debug=True)
